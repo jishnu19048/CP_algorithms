@@ -1,1 +1,1 @@
-#"Algorithms and inituitions for competitive programming" 
+# Algorithms and inituitions for competitive programming
