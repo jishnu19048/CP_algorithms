@@ -44,8 +44,7 @@ const ll mod=998244353;
 #define MAXN   100001 
   
 // stores smallest prime factor for every number 
- 
- 
+
 ll inv(ll i){if(i==1) return 1;return (mod-((mod/i)*inv(mod%i))%mod)%mod;}
  
 ll gcd(ll a,ll b){if(a==0) return b;return gcd(b,b%a);}
